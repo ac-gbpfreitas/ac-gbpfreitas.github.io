@@ -177,7 +177,7 @@ body {
 }
 
 a {
-  color: #006699;
+  color: #555555;
   -webkit-transition: all 150ms ease-in-out;
   -moz-transition: all 150ms ease-in-out;
   -ms-transition: all 150ms ease-in-out;
@@ -563,6 +563,27 @@ h3.profile-title {
   color: white;
   font-size: 13px;
   line-height: 20px;
+}
+
+/*------ education -----*/
+
+.show{
+  display:block !important;
+  visibility:visible !important;
+}
+
+.custom-readmore{
+  background-color: rgb(73,84,97) !important;
+  border: 0px;
+}
+
+.custom-space{
+  margin-top: 5%;
+}
+.content-education{
+  margin-top: 4%;
+  text-align: justify;
+  font-size: 16px;
 }
 
 /*------ contact ------ */
